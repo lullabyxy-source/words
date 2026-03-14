@@ -13,7 +13,7 @@ st.markdown("<h1 style='text-align:center; margin:0; padding:0; font-size:60px;'
 
 # 读取Excel词库
 def load_words():
-    df = pd.read_excel("/Users/zhaoxiaoyi/Desktop/words.xlsx")
+    df = pd.read_excel("words.xlsx")
     return df.to_dict("records")
 
 word_list = load_words()
